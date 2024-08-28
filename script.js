@@ -76,7 +76,7 @@ function showResult() {
     answersElement.style.display = 'none';
     nextButton.style.display = 'none';
 
-    let resultHtml = `<h2>Quiz Results</h2>`;
+    let resultHtml = `<h2>結果</h2>`;
     resultHtml += `<p>得点: ${score}/${quizData.length}</p>`;
     resultHtml += `<ul>`;
     
